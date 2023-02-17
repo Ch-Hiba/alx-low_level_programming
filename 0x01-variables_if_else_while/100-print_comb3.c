@@ -13,7 +13,7 @@ int main(void)
 		j = i / 10;
 		k = i % 10;
 
-		putchar(j + '0');
+		putchar(j + '0\n');
 		putchar(k + '0');
 
 		if (i < 99)
