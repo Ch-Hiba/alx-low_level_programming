@@ -2,15 +2,12 @@
 #include <string.h>
 #include <unistd.h>
 /**
- * main - main block
- * Return: 1
+ * main - print a line to the standard
+ * Return: 1 (success)
  */
 int main(void)
 {
-	int s = strlen("and that piece of art is useful - Dora Korpar, 2015-10-19\n");
+	fput("and that piece of art is useful - Dora Korpar, 2015-10-19\n");
 
-	write(2,
-	      "and that piece of art is useful - Dora Korpar, 2015-10-19\n",
-	      s);
 	return (1);
 }
